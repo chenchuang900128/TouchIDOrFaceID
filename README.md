@@ -1,5 +1,5 @@
 # TouchIDOrFaceID
-简单易用, 实现并兼容iOS Touch ID以及FaceID验证，可以用于指纹or面容登录，支付，
+简单易用, 实现并兼容iOS Touch ID以及FaceID验证，可以用于指纹or面容登录，支付验证，
 
 注意支持面容，首先需在info.plist中中添加
 权限
@@ -16,7 +16,6 @@
 
 // 先判断是否支持指纹，面容
     
-      
       [[MBSTouchID shareTouchID] deviceHasTouchID:^(BOOL isSucessed) {
         
         if (isSucessed) {
@@ -45,7 +44,7 @@
         
     }];
     
-    使用场景二： 指纹or面容登录开关开启
+    使用场景二： 指纹or面容登录开关关闭时候，验证指纹or面容
     
     // 先判断是否支持指纹，面容
         [[MBSTouchID shareTouchID] deviceHasTouchID:^(BOOL isSucessed) {
