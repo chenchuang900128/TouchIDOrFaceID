@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EAAE3F9220C9240B00ACBD26 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EAAE3F9120C9240B00ACBD26 /* AppDelegate.m */; };
+		EAAE3F9520C9240B00ACBD26 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAAE3F9420C9240B00ACBD26 /* ViewController.m */; };
+		EAAE3F9820C9240B00ACBD26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAAE3F9620C9240B00ACBD26 /* Main.storyboard */; };
+		EAAE3F9A20C9240D00ACBD26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAAE3F9920C9240D00ACBD26 /* Assets.xcassets */; };
+		EAAE3F9D20C9240D00ACBD26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAAE3F9B20C9240D00ACBD26 /* LaunchScreen.storyboard */; };
+		EAAE3FA020C9240D00ACBD26 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EAAE3F9F20C9240D00ACBD26 /* main.m */; };
+		EAAE3FAA20C9240D00ACBD26 /* TouchIDORFaceIDTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EAAE3FA920C9240D00ACBD26 /* TouchIDORFaceIDTests.m */; };
+		EAAE3FB720C9267400ACBD26 /* MBSTouchID.m in Sources */ = {isa = PBXBuildFile; fileRef = EAAE3FB620C9267400ACBD26 /* MBSTouchID.m */; };
+		EAAE3FBA20C9269D00ACBD26 /* LoginSucessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAAE3FB920C9269D00ACBD26 /* LoginSucessViewController.m */; };
+		EAAE3FC720C92CDD00ACBD26 /* LBXAlertAction.m in Sources */ = {isa = PBXBuildFile; fileRef = EAAE3FBC20C92CDD00ACBD26 /* LBXAlertAction.m */; };
+		EAAE3FC820C92CDD00ACBD26 /* UIWindow+LBXHierarchy.m in Sources */ = {isa = PBXBuildFile; fileRef = EAAE3FC220C92CDD00ACBD26 /* UIWindow+LBXHierarchy.m */; };
+		EAAE3FC920C92CDD00ACBD26 /* UIActionSheet+LBXAlertAction.m in Sources */ = {isa = PBXBuildFile; fileRef = EAAE3FC320C92CDD00ACBD26 /* UIActionSheet+LBXAlertAction.m */; };
+		EAAE3FCA20C92CDD00ACBD26 /* UIAlertView+LBXAlertAction.m in Sources */ = {isa = PBXBuildFile; fileRef = EAAE3FC420C92CDD00ACBD26 /* UIAlertView+LBXAlertAction.m */; };
+		EAAE3FCB20C92CDD00ACBD26 /* UIAlertController+supportedInterfaceOrientations.m in Sources */ = {isa = PBXBuildFile; fileRef = EAAE3FC520C92CDD00ACBD26 /* UIAlertController+supportedInterfaceOrientations.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EAAE3FA620C9240D00ACBD26 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EAAE3F8520C9240B00ACBD26 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAAE3F8C20C9240B00ACBD26;
+			remoteInfo = TouchIDORFaceID;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EAAE3F8D20C9240B00ACBD26 /* TouchIDORFaceID.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TouchIDORFaceID.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAAE3F9020C9240B00ACBD26 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EAAE3F9120C9240B00ACBD26 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EAAE3F9320C9240B00ACBD26 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EAAE3F9420C9240B00ACBD26 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EAAE3F9720C9240B00ACBD26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EAAE3F9920C9240D00ACBD26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EAAE3F9C20C9240D00ACBD26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EAAE3F9E20C9240D00ACBD26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAAE3F9F20C9240D00ACBD26 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EAAE3FA520C9240D00ACBD26 /* TouchIDORFaceIDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TouchIDORFaceIDTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAAE3FA920C9240D00ACBD26 /* TouchIDORFaceIDTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TouchIDORFaceIDTests.m; sourceTree = "<group>"; };
+		EAAE3FAB20C9240D00ACBD26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAAE3FB520C9267400ACBD26 /* MBSTouchID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBSTouchID.h; sourceTree = "<group>"; };
+		EAAE3FB620C9267400ACBD26 /* MBSTouchID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBSTouchID.m; sourceTree = "<group>"; };
+		EAAE3FB820C9269D00ACBD26 /* LoginSucessViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginSucessViewController.h; sourceTree = "<group>"; };
+		EAAE3FB920C9269D00ACBD26 /* LoginSucessViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginSucessViewController.m; sourceTree = "<group>"; };
+		EAAE3FBC20C92CDD00ACBD26 /* LBXAlertAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBXAlertAction.m; sourceTree = "<group>"; };
+		EAAE3FBD20C92CDD00ACBD26 /* LBXAlertAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBXAlertAction.h; sourceTree = "<group>"; };
+		EAAE3FBF20C92CDD00ACBD26 /* UIActionSheet+LBXAlertAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIActionSheet+LBXAlertAction.h"; sourceTree = "<group>"; };
+		EAAE3FC020C92CDD00ACBD26 /* UIAlertController+supportedInterfaceOrientations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertController+supportedInterfaceOrientations.h"; sourceTree = "<group>"; };
+		EAAE3FC120C92CDD00ACBD26 /* UIAlertView+LBXAlertAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+LBXAlertAction.h"; sourceTree = "<group>"; };
+		EAAE3FC220C92CDD00ACBD26 /* UIWindow+LBXHierarchy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+LBXHierarchy.m"; sourceTree = "<group>"; };
+		EAAE3FC320C92CDD00ACBD26 /* UIActionSheet+LBXAlertAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIActionSheet+LBXAlertAction.m"; sourceTree = "<group>"; };
+		EAAE3FC420C92CDD00ACBD26 /* UIAlertView+LBXAlertAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+LBXAlertAction.m"; sourceTree = "<group>"; };
+		EAAE3FC520C92CDD00ACBD26 /* UIAlertController+supportedInterfaceOrientations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertController+supportedInterfaceOrientations.m"; sourceTree = "<group>"; };
+		EAAE3FC620C92CDD00ACBD26 /* UIWindow+LBXHierarchy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWindow+LBXHierarchy.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EAAE3F8A20C9240B00ACBD26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAAE3FA220C9240D00ACBD26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EAAE3F8420C9240B00ACBD26 = {
+			isa = PBXGroup;
+			children = (
+				EAAE3FB420C9267400ACBD26 /* Source */,
+				EAAE3F8F20C9240B00ACBD26 /* TouchIDORFaceID */,
+				EAAE3FA820C9240D00ACBD26 /* TouchIDORFaceIDTests */,
+				EAAE3F8E20C9240B00ACBD26 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EAAE3F8E20C9240B00ACBD26 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EAAE3F8D20C9240B00ACBD26 /* TouchIDORFaceID.app */,
+				EAAE3FA520C9240D00ACBD26 /* TouchIDORFaceIDTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EAAE3F8F20C9240B00ACBD26 /* TouchIDORFaceID */ = {
+			isa = PBXGroup;
+			children = (
+				EAAE3F9020C9240B00ACBD26 /* AppDelegate.h */,
+				EAAE3F9120C9240B00ACBD26 /* AppDelegate.m */,
+				EAAE3F9320C9240B00ACBD26 /* ViewController.h */,
+				EAAE3F9420C9240B00ACBD26 /* ViewController.m */,
+				EAAE3FB820C9269D00ACBD26 /* LoginSucessViewController.h */,
+				EAAE3FB920C9269D00ACBD26 /* LoginSucessViewController.m */,
+				EAAE3F9620C9240B00ACBD26 /* Main.storyboard */,
+				EAAE3F9920C9240D00ACBD26 /* Assets.xcassets */,
+				EAAE3F9B20C9240D00ACBD26 /* LaunchScreen.storyboard */,
+				EAAE3F9E20C9240D00ACBD26 /* Info.plist */,
+				EAAE3F9F20C9240D00ACBD26 /* main.m */,
+			);
+			path = TouchIDORFaceID;
+			sourceTree = "<group>";
+		};
+		EAAE3FA820C9240D00ACBD26 /* TouchIDORFaceIDTests */ = {
+			isa = PBXGroup;
+			children = (
+				EAAE3FA920C9240D00ACBD26 /* TouchIDORFaceIDTests.m */,
+				EAAE3FAB20C9240D00ACBD26 /* Info.plist */,
+			);
+			path = TouchIDORFaceIDTests;
+			sourceTree = "<group>";
+		};
+		EAAE3FB420C9267400ACBD26 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				EAAE3FBB20C92CDD00ACBD26 /* LBXAlertAction */,
+				EAAE3FB520C9267400ACBD26 /* MBSTouchID.h */,
+				EAAE3FB620C9267400ACBD26 /* MBSTouchID.m */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		EAAE3FBB20C92CDD00ACBD26 /* LBXAlertAction */ = {
+			isa = PBXGroup;
+			children = (
+				EAAE3FBC20C92CDD00ACBD26 /* LBXAlertAction.m */,
+				EAAE3FBD20C92CDD00ACBD26 /* LBXAlertAction.h */,
+				EAAE3FBE20C92CDD00ACBD26 /* Class */,
+			);
+			path = LBXAlertAction;
+			sourceTree = "<group>";
+		};
+		EAAE3FBE20C92CDD00ACBD26 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				EAAE3FBF20C92CDD00ACBD26 /* UIActionSheet+LBXAlertAction.h */,
+				EAAE3FC020C92CDD00ACBD26 /* UIAlertController+supportedInterfaceOrientations.h */,
+				EAAE3FC120C92CDD00ACBD26 /* UIAlertView+LBXAlertAction.h */,
+				EAAE3FC220C92CDD00ACBD26 /* UIWindow+LBXHierarchy.m */,
+				EAAE3FC320C92CDD00ACBD26 /* UIActionSheet+LBXAlertAction.m */,
+				EAAE3FC420C92CDD00ACBD26 /* UIAlertView+LBXAlertAction.m */,
+				EAAE3FC520C92CDD00ACBD26 /* UIAlertController+supportedInterfaceOrientations.m */,
+				EAAE3FC620C92CDD00ACBD26 /* UIWindow+LBXHierarchy.h */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EAAE3F8C20C9240B00ACBD26 /* TouchIDORFaceID */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAAE3FAE20C9240D00ACBD26 /* Build configuration list for PBXNativeTarget "TouchIDORFaceID" */;
+			buildPhases = (
+				EAAE3F8920C9240B00ACBD26 /* Sources */,
+				EAAE3F8A20C9240B00ACBD26 /* Frameworks */,
+				EAAE3F8B20C9240B00ACBD26 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TouchIDORFaceID;
+			productName = TouchIDORFaceID;
+			productReference = EAAE3F8D20C9240B00ACBD26 /* TouchIDORFaceID.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EAAE3FA420C9240D00ACBD26 /* TouchIDORFaceIDTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAAE3FB120C9240D00ACBD26 /* Build configuration list for PBXNativeTarget "TouchIDORFaceIDTests" */;
+			buildPhases = (
+				EAAE3FA120C9240D00ACBD26 /* Sources */,
+				EAAE3FA220C9240D00ACBD26 /* Frameworks */,
+				EAAE3FA320C9240D00ACBD26 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EAAE3FA720C9240D00ACBD26 /* PBXTargetDependency */,
+			);
+			name = TouchIDORFaceIDTests;
+			productName = TouchIDORFaceIDTests;
+			productReference = EAAE3FA520C9240D00ACBD26 /* TouchIDORFaceIDTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EAAE3F8520C9240B00ACBD26 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = chc;
+				TargetAttributes = {
+					EAAE3F8C20C9240B00ACBD26 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					EAAE3FA420C9240D00ACBD26 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = EAAE3F8C20C9240B00ACBD26;
+					};
+				};
+			};
+			buildConfigurationList = EAAE3F8820C9240B00ACBD26 /* Build configuration list for PBXProject "TouchIDORFaceID" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EAAE3F8420C9240B00ACBD26;
+			productRefGroup = EAAE3F8E20C9240B00ACBD26 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EAAE3F8C20C9240B00ACBD26 /* TouchIDORFaceID */,
+				EAAE3FA420C9240D00ACBD26 /* TouchIDORFaceIDTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EAAE3F8B20C9240B00ACBD26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAAE3F9D20C9240D00ACBD26 /* LaunchScreen.storyboard in Resources */,
+				EAAE3F9A20C9240D00ACBD26 /* Assets.xcassets in Resources */,
+				EAAE3F9820C9240B00ACBD26 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAAE3FA320C9240D00ACBD26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EAAE3F8920C9240B00ACBD26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAAE3FCB20C92CDD00ACBD26 /* UIAlertController+supportedInterfaceOrientations.m in Sources */,
+				EAAE3FCA20C92CDD00ACBD26 /* UIAlertView+LBXAlertAction.m in Sources */,
+				EAAE3F9520C9240B00ACBD26 /* ViewController.m in Sources */,
+				EAAE3FC720C92CDD00ACBD26 /* LBXAlertAction.m in Sources */,
+				EAAE3FBA20C9269D00ACBD26 /* LoginSucessViewController.m in Sources */,
+				EAAE3FC820C92CDD00ACBD26 /* UIWindow+LBXHierarchy.m in Sources */,
+				EAAE3FB720C9267400ACBD26 /* MBSTouchID.m in Sources */,
+				EAAE3FC920C92CDD00ACBD26 /* UIActionSheet+LBXAlertAction.m in Sources */,
+				EAAE3FA020C9240D00ACBD26 /* main.m in Sources */,
+				EAAE3F9220C9240B00ACBD26 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAAE3FA120C9240D00ACBD26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAAE3FAA20C9240D00ACBD26 /* TouchIDORFaceIDTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EAAE3FA720C9240D00ACBD26 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EAAE3F8C20C9240B00ACBD26 /* TouchIDORFaceID */;
+			targetProxy = EAAE3FA620C9240D00ACBD26 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EAAE3F9620C9240B00ACBD26 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAAE3F9720C9240B00ACBD26 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EAAE3F9B20C9240D00ACBD26 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAAE3F9C20C9240D00ACBD26 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EAAE3FAC20C9240D00ACBD26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EAAE3FAD20C9240D00ACBD26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EAAE3FAF20C9240D00ACBD26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = B94C4GLS2Q;
+				INFOPLIST_FILE = TouchIDORFaceID/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.TouchIDORFaceID;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "7ecf59c2-9402-45e7-8ede-8370e6780e8b";
+				PROVISIONING_PROFILE_SPECIFIER = DevelopAll;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EAAE3FB020C9240D00ACBD26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = U8GY3BJCT5;
+				INFOPLIST_FILE = TouchIDORFaceID/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.TouchIDORFaceID;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "a1522cc9-2b1e-4b0b-815f-297b3bce327b";
+				PROVISIONING_PROFILE_SPECIFIER = KaoQinAll;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EAAE3FB220C9240D00ACBD26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B94C4GLS2Q;
+				INFOPLIST_FILE = TouchIDORFaceIDTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.TouchIDORFaceIDTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TouchIDORFaceID.app/TouchIDORFaceID";
+			};
+			name = Debug;
+		};
+		EAAE3FB320C9240D00ACBD26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B94C4GLS2Q;
+				INFOPLIST_FILE = TouchIDORFaceIDTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.TouchIDORFaceIDTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TouchIDORFaceID.app/TouchIDORFaceID";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EAAE3F8820C9240B00ACBD26 /* Build configuration list for PBXProject "TouchIDORFaceID" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAAE3FAC20C9240D00ACBD26 /* Debug */,
+				EAAE3FAD20C9240D00ACBD26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAAE3FAE20C9240D00ACBD26 /* Build configuration list for PBXNativeTarget "TouchIDORFaceID" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAAE3FAF20C9240D00ACBD26 /* Debug */,
+				EAAE3FB020C9240D00ACBD26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAAE3FB120C9240D00ACBD26 /* Build configuration list for PBXNativeTarget "TouchIDORFaceIDTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAAE3FB220C9240D00ACBD26 /* Debug */,
+				EAAE3FB320C9240D00ACBD26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EAAE3F8520C9240B00ACBD26 /* Project object */;
+}
