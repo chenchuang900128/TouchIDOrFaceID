@@ -15,7 +15,9 @@
 使用场景一： 指纹or面容登录验证
 
 // 先判断是否支持指纹，面容
-    [[MBSTouchID shareTouchID] deviceHasTouchID:^(BOOL isSucessed) {
+    
+      
+      [[MBSTouchID shareTouchID] deviceHasTouchID:^(BOOL isSucessed) {
         
         if (isSucessed) {
             
